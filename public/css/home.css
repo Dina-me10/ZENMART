@@ -354,8 +354,8 @@
 
   display: flex;
   flex-direction: column;
-  /* cursor: pointer; */
-}
+  cursor: pointer; */
+ }
 .product_box .product_img_box {
   width: 100%;
   height: 280px;
@@ -466,4 +466,4 @@
   line-height: 22px;
 
   text-decoration-line: line-through;
-}
+} 
