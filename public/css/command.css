@@ -230,7 +230,7 @@ p {
 }
 .navbar_frame .navbar_bott_menu_box .navbar_route_menu {
   margin-left: 12px;
-  width: 690px;
+  width: 700px;
 
   display: flex;
   flex-direction: row;
@@ -256,14 +256,23 @@ p {
 .navbar_frame .navbar_bott_menu_box .sorting_menu {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .navbar_frame .sorting_menu span {
-  margin-left: 25px;
+  width: auto;
+  height: 28px;
+
+  margin-left: 20px;
   font-family: "Jost";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
+
   color: #ffffff;
+
+  white-space: nowrap;
+  flex-shrink: 0;
 }
